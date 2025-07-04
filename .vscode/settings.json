@@ -3,4 +3,7 @@
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     "editor.formatOnSave": true,
   },
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.detectExtensionConflicts": false,
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}\\compile_commands.json",
 }
